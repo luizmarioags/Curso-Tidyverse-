@@ -6,5 +6,10 @@ Nesse repositório serão colocados e disponibilizados os códigos feitos com an
   <img src ="https://img.shields.io/static/v1?style=for-the-badge&message=Tidyverse&color=1A162D&logo=Tidyverse&logoColor=FFFFFF&label="/>
 
 # Aulas por tema 
+[Aula 1: Introdução ao Dplyr: Filter, Arrange e Mutate](https://github.com/luizmarioags/Curso-Tidyverse-/blob/main/Aulas/aula_dplyr_filter_arrange_mutate.R)
+
+[Aula 2: Vizualização de dados com o ggplot2](https://github.com/luizmarioags/Curso-Tidyverse-/blob/main/Aulas/aula_ggplot2.R)
+
+[Aula 3: Dplyr: Summarize, Group_by e vizualização de dados agrupados](https://github.com/luizmarioags/Curso-Tidyverse-/blob/main/Aulas/aula_dplyr_summarise_groupby.R)
 
 
