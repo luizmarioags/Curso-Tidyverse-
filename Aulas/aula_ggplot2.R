@@ -9,8 +9,9 @@ gapminder_2007 <- gapminder %>% # o <- pode ser substituido por =
 View(gapminder_2007)
 
 # Gerando gráfico com o ggplot2
+#Dispersão
 ggplot(gapminder_2007, aes(x = gdpPercap, y = lifeExp)) +
-  geom_point() +
+  geom_point() + #O geom_point() especifica como gráfico de dispersão 
   geom_smooth()
 #Grafico 2 
 ggplot(gapminder_2007, aes(x = pop, y = gdpPercap)) + 
