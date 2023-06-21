@@ -12,4 +12,4 @@ Nesse repositório serão colocados e disponibilizados os códigos feitos com an
 
 [Aula 3: Dplyr: Summarize, Group_by e vizualização de dados agrupados](https://github.com/luizmarioags/Curso-Tidyverse-/blob/main/Aulas/aula_dplyr_summarise_groupby.R)
 
-
+[Aula 4: ggplot2: Gráficos de Linha, Boxplot, Barras e Histogramas](https://github.com/luizmarioags/Curso-Tidyverse-/blob/main/Aulas/aula_ggplot2_tipos_vizualizacao.R)
