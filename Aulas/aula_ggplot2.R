@@ -1,3 +1,4 @@
+#Chamando as bibliotecas
 library(gapminder)
 library(ggplot2)
 library(dplyr)
@@ -7,9 +8,10 @@ gapminder_2007 <- gapminder %>% # o <- pode ser substituido por =
   filter(year == 2007) #filtrando para o ano de 2007
 View(gapminder_2007)
 
-# Gerando gr�fico com o ggplot2
+# Gerando gráfico com o ggplot2
+#Dispersão
 ggplot(gapminder_2007, aes(x = gdpPercap, y = lifeExp)) +
-  geom_point() +
+  geom_point() + #O geom_point() especifica como gráfico de dispersão 
   geom_smooth()
 #Grafico 2 
 ggplot(gapminder_2007, aes(x = pop, y = gdpPercap)) + 
@@ -29,7 +31,7 @@ ggplot(gapminder_2007, aes(x = gdpPercap, y = lifeExp)) +
 #Grafico com filtros para cor e para tamanho dos pontos
 ggplot(gapminder_2007, aes(x = gdpPercap, y = lifeExp, color = continent,
                            size = pop)) + #o comando color distingue a cor por continente
-                                          # o comando size destingue o tamanho do ponto de acordo com a magnitude de uma vari�vel
+                                          # o comando size destingue o tamanho do ponto de acordo com a magnitude de uma variável
   geom_point()+
   scale_x_log10()
 #Subplots 
